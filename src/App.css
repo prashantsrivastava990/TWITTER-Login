@@ -1,0 +1,164 @@
+body {
+  background: #3e65fe;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.logo-box {
+  background: #fff;
+  width: 400px;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.data {
+  width: 50%;
+  padding: 20px;
+  color: rgb(14, 10, 10);
+  margin-left: 40px;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 15px;
+}
+
+
+.logo {
+  width: 30px;
+  margin-bottom: 20px;
+}
+
+.logo-box h2 {
+  margin-bottom: 25px;
+  color: #0d0f18;
+  font-size: 24px;
+}
+
+.logo-box button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 12px 0;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.logo-box button:hover {
+  background-color: #f5f5f5;
+}
+
+button {
+  color: #0d0f18;
+}
+
+.logo-box button img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.logo-box hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.logo-box span {
+  display: block;
+  width: 40px;
+  margin: auto;
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: -30px;
+  color: #0d0f18;
+  padding: 5px;
+}
+
+.logo-box input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ddd;
+  outline: 0;
+  padding: 15px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+::placeholder {
+  font-weight: 500;
+  color: #777;
+}
+
+.logo-box form button {
+  background: #1da1f2;
+  color: #fff;
+  border: 0;
+  margin-bottom: 15px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.logo-box form button:hover {
+  background: #0c85d0;
+}
+
+.logo-box p {
+  font-size: 14px;
+  color: #555;
+  margin: 25px 0 0;
+}
+
+.logo-box p a {
+  text-decoration: none;
+  color: #3e65fe;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.logo-box p a:hover {
+  text-decoration: underline;
+}
+
+input {
+  color: #0d0f18;
+}
+
+/* @media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+  
+  .logo-box {
+    width: 80%;
+    margin: 20px;
+    padding: 30px;
+  }
+  
+  .data {
+    width: 100%;
+
+  }
+} */
